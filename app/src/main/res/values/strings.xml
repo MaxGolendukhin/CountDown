@@ -2,5 +2,6 @@
     <string name="app_name">count down</string>
     <string name="keep_trying">keep trying</string>
     <string name="time_left">time left</string>
+    <string name="fake_string">time left</string>
 </resources>
 
