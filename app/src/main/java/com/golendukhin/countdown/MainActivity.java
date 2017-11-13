@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         final String format = "%02d:%02d:%02d:%02d";
         DateTime currentTime = new DateTime();
-        DateTime newYearTime = new DateTime(2018, 2, 1, 0, 0);
+        DateTime newYearTime = new DateTime(2018, 2, 6, 0, 0);
         long interval = newYearTime.getMillis() - currentTime.getMillis();
         final TextView textView = findViewById(R.id.elapsed_time_text_view);
 
